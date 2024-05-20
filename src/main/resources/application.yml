@@ -1,0 +1,10 @@
+server:
+  port: 8082
+
+camel:
+  component:
+    kafka:
+      brokers:
+        - localhost:9092
+  sringboot:
+    main-run-controller: true
